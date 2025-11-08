@@ -1,0 +1,80 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+*.vcxproj.user
+*.psess
+*.vsp
+*.vspx
+*.ncb
+*.opendb
+*.VC.db
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+# except build/, which can contain build scripts
+!build/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# OS-generated files
+.DS_Store
+Icon?
+desktop.ini
+
+# Logs
+*.log
+
+# Environment/configuration
+.env
+appsettings.*.json
+
+# Tooling
+*.swp
+*.bak
+*.tmp
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Entity Framework
+*.dbmdl
+Migrations/
+
+# Backup files
+*.bak
+*.orig
