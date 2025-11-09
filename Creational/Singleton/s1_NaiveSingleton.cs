@@ -12,4 +12,3 @@ sealed class s1_NaiveSingleton
     {
     }
 }
-
