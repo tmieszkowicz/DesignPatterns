@@ -28,7 +28,7 @@ class PasswordFactory
 // a static factory method - a static method defined in a concrete type that creates that type
 class Password
 {
-    private Password() { }
+    public Password() { }
 
     public static Password Generate(/* .. */)
     {
