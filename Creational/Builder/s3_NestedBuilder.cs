@@ -4,17 +4,17 @@ public class s3_NestedBuilder
 {
     public void Run()
     {
-        NestedProduct.Builder builder = new();
+        Product.Builder builder = new();
 
         builder.BuildName("Simple Product");
         builder.BuildDescription("Simple Product Description");
 
-        NestedProduct product = builder.Build();
+        Product product = builder.Build();
     }
 }
 
 
-public record NestedProduct(string Name, string Description)
+public record Product(string Name, string Description)
 {
     public class Builder
     {
@@ -23,6 +23,6 @@ public record NestedProduct(string Name, string Description)
 
         public void BuildName(string name) { _name = name; }
         public void BuildDescription(string description) { _description = description; }
-        public NestedProduct Build() => new NestedProduct(_name, _description);
+        public Product Build() => new Product(_name, _description);
     }
 }
